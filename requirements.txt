@@ -1,0 +1,2 @@
+quart==0.20.0
+websockets==15.0.1
