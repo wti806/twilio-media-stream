@@ -15,7 +15,6 @@ class AudioProxy:
     async def twilio_audio_stream(self):
         """
         Receive messages from the Twilio (Quart) websocket in a while-True loop.
-        (We can't do `async for`, because Quart's websocket isn't an async iterator.)
         """
         self.twilio_ws = websocket
 
